@@ -1,0 +1,9 @@
+{
+  "name": "events",
+  "repo": "popomore/events",
+  "description": "提供基本的事件添加、移除和触发功能。",
+  "version": "1.1.0",
+  "keywords": ["infrastructure"],
+  "scripts": ["src/events.js"],
+  "license": "MIT"
+}
