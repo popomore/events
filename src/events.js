@@ -8,6 +8,7 @@
 // Regular expression used to split event strings
 var eventSplitter = /\s+/
 
+module.exports = Events
 
 // A module that can be mixed in to *any object* in order to provide it
 // with custom events. You may bind with `on` or remove with `off` callback
@@ -175,4 +176,3 @@ function isFunction(func) {
   return Object.prototype.toString.call(func) === '[object Function]'
 }
 
-return Events
